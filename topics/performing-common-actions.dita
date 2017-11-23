@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="performing-common-actions">
+  <title>How to Perform Common Editing Tasks</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Editing operations</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>This section describes how to perform some of the most common editing operations in <ph
+        keyref="webappProduct"/>.</p>
+    <section id="input_text">
+      <title>Input Text</title>
+      <p>
+        <ol>
+          <li>Tap or click to move the cursor into the selected document area.</li>
+          <li>Type the text using the keyboard or screen.</li>
+        </ol>
+      </p>
+    </section>
+    <section id="split_a_paragraph">
+      <title>Split a Paragraph</title>
+      <p>
+        <ol>
+          <li>Tap or click to move the cursor at the split position.</li>
+          <li>Tap or press <uicontrol><shortcut>Enter</shortcut></uicontrol> to open the
+              <term>Content Completion Assistant</term>.</li>
+          <li>Choose <uicontrol>Split p</uicontrol> from the list of proposals.</li>
+        </ol>
+      </p>
+    </section>
+    <section id="enter_a_new_xml_element_or_to_surround_the_select">
+      <title>Enter a New XML Element</title>
+      <p>
+        <ol>
+          <li>Tap or click to move the cursor into the document area where you want to enter the new
+            element.</li>
+          <li>Tap or press <uicontrol><shortcut>Enter</shortcut></uicontrol> to open the
+              <term>Content Completion Assistant</term>. </li>
+          <li>Select the element name.</li>
+        </ol>
+      </p>
+    </section>
+    <section id="surround_a_selection_with_an_xml_element">
+      <title>Surround a Selection with an XML Element</title>
+      <p>
+        <ol>
+          <li>Tap or click to move the cursor into the selected document area and make a text
+            selection.</li>
+          <li>Tap or press <uicontrol><shortcut>Enter</shortcut></uicontrol> to open the
+              <term>Content Completion Assistant</term>. </li>
+          <li>Select the element name that you want the selection to be surrounded with.</li>
+        </ol>
+      </p>
+    </section>
+    <section id="insert_an_image">
+      <title>Insert an Image</title>
+      <p>
+        <ol>
+          <li>Tap or click the <uicontrol><image href="../img/Image16.gif" id="image_gqz_lzy_tr"
+              />Insert Image</uicontrol> action on the toolbar.</li>
+          <li>Select the image from the file browsing dialog box that appears.<note type="tip">If
+              the image does not already exist in file structure of your repository, you can use the
+                  <uicontrol><image href="../img/WAUpload16.png"/>Upload File</uicontrol> action at
+              the top-right corner of the dialog box to upload it to the repository before selecting
+              it.</note></li>
+        </ol>
+      </p>
+      <p>You can also copy an image file from another document, web page, or application (such as a
+        system  file browser) and paste it into your document. <ph keyref="webappProduct"/> will
+        insert it as a reference to the image file.</p>
+    </section>
+    <section id="set_an_attribute_value">
+      <title>Set an Attribute Value</title>
+      <ol>
+        <li>Select the <uicontrol>Attributes</uicontrol> tab from the panel on the right side of the
+          screen. If it is not displayed, click the arrow button (<image
+            href="../img/WA_open_arrow.png"/>) on the far right side of the editor.<p>
+            <fig>
+              <title>Web Author Attribute Panel</title>
+              <image href="../img/oxygen_webapp_attributes_panel.png"/>
+            </fig>
+          </p></li>
+        <li>If the attribute is present in the attributes table (it already has a value), you can
+          change its value by tapping or clicking its value. On a desktop system, you can also use
+              <uicontrol><shortcut>Tab</shortcut></uicontrol> or
+              <uicontrol><shortcut>Shift+Tab</shortcut></uicontrol> to cycle through the available
+          attributes and the <uicontrol><shortcut>Enter</shortcut></uicontrol> key to select and
+          modify attribute values.</li>
+        <li>If the attribute is not present, use the <uicontrol>Add Attribute</uicontrol> button and
+          tap or click the attribute to set its value. On a desktop system, you can also press
+              <uicontrol><shortcut conkeyref="reusable-oxygen-shortcuts-list/alt_enter_shortcut"
+            /></uicontrol> when the cursor is in the document and the focus will change to the
+            <uicontrol>Attributes</uicontrol> tab with the <uicontrol>Add Attribute</uicontrol> form
+          control automatically opened.</li>
+      </ol>
+    </section>
+    <section id="remove_an_attribute">
+      <title>Remove an Attribute</title>
+      <ol id="ol_tvz_ydn_yr">
+        <li>Select the <uicontrol>Attributes</uicontrol> tab from the panel on the right side of the
+          screen.. If it is not displayed, click the arrow button (<image
+            href="../img/WA_open_arrow.png"/>) on the far right side of the editor.</li>
+        <li>Find the attribute in the table and tap or click its value.</li>
+        <li>Use the <uicontrol><image href="../img/WebappDelete20.png" id="image_dpy_zj2_vs"
+            />Delete</uicontrol> button (or use the
+            <uicontrol><shortcut>Delete</shortcut></uicontrol> key) to remove the attribute.</li>
+      </ol>
+    </section>
+    <section id="save_a_modified_xml_document">
+      <title>Save a Modified XML Document</title>
+      <p>To save your changes, tap or click the <uicontrol><image href="../img/WebappSave18.png"
+            id="image_q3f_nwg_5r"/>Save</uicontrol> button from the upper toolbar. Note that the
+        save operation depends on the integration of the <ph keyref="webappProduct"/> with a CMS or
+        other storage mechanism.</p>
+    </section>
+    <section id="search_and_replace_content">
+      <title>Search and Replace Content</title>
+      <p>
+        <ol id="ol_mzt_hcl_cr">
+          <li>Tap or click the <uicontrol><image href="../img/WebappSearch18.png"
+                id="image_ygv_lxg_5r"/>Search</uicontrol> button from the upper toolbar, or the
+              <uicontrol>Search</uicontrol> tab on the right side of the screen. If it is not
+            displayed, click the arrow button (<image href="../img/WA_open_arrow.png"/>) on the far
+            right side of the editor.</li>
+          <li>The <uicontrol>Search</uicontrol> side panel is opened.<p>
+              <fig>
+                <title>Web Author Search Panel</title>
+                <image href="../img/web_author_search_panel.png"/>
+              </fig>
+            </p></li>
+          <li>Type the text you want to find in the <uicontrol>Search for</uicontrol> input box and
+            tap or click the <uicontrol><image href="../img/WebappFind.png" id="image_nbh_ljg_wr"
+              />Search</uicontrol> icon in the left side of that same input box.</li>
+          <li>All matches are highlighted, and the first one is selected. To advance to the next
+            match, tap or click the <uicontrol><image href="../img/WebappFind.png"
+                id="image_u3r_mjg_wr"/>Search</uicontrol> icon again.</li>
+          <li>To replace content, type the new text in the <uicontrol>Replace with</uicontrol> input
+            box. To replace the current match, use the <uicontrol>Replace</uicontrol> button. To
+            replace all matches, use the <uicontrol>Replace all</uicontrol> button.</li>
+        </ol>
+      </p>
+    </section>
+    <section id="editing_mathml_equations">
+      <title>Edit MathML Equations</title>
+      <p>
+        <ol id="ol_zd4_ckp_2s">
+          <li>Tap or click the equation to open an editing dialog box.</li>
+          <li>Edit the XML source of the equation.</li>
+          <li>Tap or click <uicontrol>OK</uicontrol> to finish the editing process.</li>
+        </ol>
+      </p>
+    </section>
+    <section id="open_image">
+      <title>Open Image</title>
+      <p>To open an image in a new browser tab, right-click the image and select <uicontrol>Open
+          Image</uicontrol>. The new browser tab will contain a preview of the image and from there,
+        you can perform the usual contextual menu actions that are available on images for the
+        particular browser.</p>
+    </section>
+    <section id="promote_demote_list_item_nodes">
+      <title>Promote/Demote List Item Nodes</title>
+      <p>On a desktop PC>, you can easily promote or demote
+        selected list item nodes within ordered lists or unordered lists by using the following
+        keyboard shortcuts:<dl>
+          <dlentry>
+            <dt><uicontrol>Promote (<shortcut conkeyref="reusable-oxygen-shortcuts-list/shift_tab_shortcut"
+                />)</uicontrol>
+            </dt>
+            <dd>Promotes an entirely selected list item node to be a sibling of its parent node (the
+              list item is moved to the left). It also works for selections of multiple list item
+              nodes as long as all the selected nodes are siblings (on the same hierarchical
+              level).</dd>
+          </dlentry>
+          <dlentry>
+            <dt><uicontrol>Demote (<shortcut conkeyref="reusable-oxygen-shortcuts-list/tab_shortcut"
+                />)</uicontrol>
+            </dt>
+            <dd>Demotes an entirely selected list item node (the list item is moved to the right).
+              It also works for selections of multiple list item nodes as long as all the selected
+              nodes are siblings (on the same hierarchical level).</dd>
+          </dlentry>
+        </dl></p>
+    </section>
+    <section id="change_dita_map_for_dita_documents">
+      <title>Change DITA Map (For DITA Documents)</title>
+      <p>To change the <term>DITA map</term> that is associated with the current document, follow
+        these steps:<ol>
+          <li>With the document opened in <ph keyref="webappProduct"/>, select the <uicontrol><image
+                href="../img/DitamapIcon16.png"/>Choose DITA Map</uicontrol> button on the DITA
+            toolbar.</li>
+          <li>Choose the URL of the <term>DITA map</term> that you want to be associated with the
+            current document.</li>
+          <li>To see which <term>DITA map</term> is currently associated with a document, select the
+                <uicontrol><image href="../img/oxygen_webapp_validation_errors.png"/>Show Validation
+              Results</uicontrol> from the upper toolbar.</li>
+        </ol></p>
+    </section>
+  </body>
+</topic>

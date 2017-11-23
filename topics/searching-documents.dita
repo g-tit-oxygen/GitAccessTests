@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="searching-documents">
+  <title>Searching Documents</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Searching documents</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p><ph keyref="product"/> includes advanced search capabilities to help you locate documents and
+      resources.</p>
+  </body>
+</topic>

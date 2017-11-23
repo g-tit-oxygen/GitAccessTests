@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+<topic id="xml-schema-constructs-group-schema-components">
+  <title>Constructs Used to Group Schema Components</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Design editing mode<indexterm>Components<indexterm>Grouping
+              components</indexterm></indexterm></indexterm>
+        <indexterm>XML Schemas<indexterm>Design mode editing<indexterm>Components<indexterm>Grouping
+                components</indexterm></indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>This section explains the components that can be used for grouping other schema
+      components:</p>
+    <ul>
+      <li><xref href="xml-schema-attributes.dita#xml-schema-attributes" format="dita">Attributes</xref></li>
+      <li><xref href="xml-schema-constraints.dita#xml-schema-constraints" format="dita">Constraints</xref></li>
+      <li><xref href="xml-schema-substitutions.dita#xml-schema-substitutions" format="dita">Substitutions</xref></li>
+    </ul>
+  </body>
+</topic>

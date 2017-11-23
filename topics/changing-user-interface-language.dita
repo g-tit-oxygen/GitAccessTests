@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+<topic id="changing-user-interface-language">
+  <title>Localizing the User Interface</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Localizing the user interface</indexterm>
+        <indexterm>Change language for interface</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>You can select the language of the <ph keyref="product"/> user interface. <ph
+        keyref="product"/> ships with the following languages: English, French, German, Japanese,
+      and Dutch. To change the interface language, go to <menucascade>
+        <uicontrol>Options</uicontrol>
+        <uicontrol>Preferences</uicontrol>
+        <uicontrol>Global</uicontrol>
+      </menucascade> preferences page, then choose the appropriate language from the
+        <uicontrol>Language</uicontrol> drop-down menu.</p>
+    <p>You can also localize the interface in another language by <xref
+        href="localizeGUI-using-xml-file.dita#localizeGUI-using-xml-file">creating an interface
+        localization file</xref>.</p>
+  </body>
+</topic>

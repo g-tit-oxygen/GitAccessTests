@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="adding-libraries-fop-dita-ot">
+  <title>Adding Libraries to the Built-in FO Processor (DITA-OT)</title>
+  <body>
+    <p>To use additional libraries with the DITA-OT publishing engine, you need to edit the
+      transformation scenario and add the path to the new libraries in the
+        <uicontrol>Libraries</uicontrol> section of the <uicontrol>Advanced</uicontrol> tab.</p>
+    <section id="adding_hyphenation_support_for_ditaot_transformat">
+      <title>Adding Hyphenation Support for DITA-OT Transformation Scenarios</title>
+      <ol>
+        <li>Download the pre-compiled <xref keyref="glossentry_jar"><term>JAR</term></xref> from
+            <xref href="http://sourceforge.net/projects/offo/" format="html" scope="external"
+            >OFFO</xref>.</li>
+        <li>Edit the DITA-OT transformation scenario and switch to the
+            <uicontrol>Advanced</uicontrol> tab. Click the <uicontrol>Libraries</uicontrol> button
+          and add the path to the <filepath>fop-hyph.jar</filepath> library.</li>
+      </ol>
+    </section>
+    <section id="adding_support_for_pdf_images">
+      <title>Adding Support for PDF Images </title>
+      <ol>
+        <li>Download the <xref href="http://xmlgraphics.apache.org/fop/fop-pdf-images.html"
+            scope="external" format="html"><i>fop-pdf-images</i></xref>
+          <term>JAR</term> libraries.</li>
+        <li>Edit the DITA-OT transformation scenario and switch to the
+            <uicontrol>Advanced</uicontrol> tab. Click the <uicontrol>Libraries</uicontrol> button
+          and add the path to the libraries.</li>
+      </ol>
+    </section>
+  </body>
+</topic>

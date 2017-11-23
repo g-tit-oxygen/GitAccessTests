@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="webhelp-plugin-additional-parameters-docbook">
+  <title>Additional <ph keyref="webhelp"/> Plugin Parameters for DocBook</title>
+  <body>
+    <p>You can append the following parameters to the command line that runs the transformation:<dl>
+        <dlentry>
+          <dt><codeph>-D<ph
+                conkeyref="reusables-webhelp-output-parameters/ph_webhelp_copyright"
+              /></codeph></dt>
+          <dd><ph
+              conkeyref="reusables-webhelp-output-parameters/def_webhelp_copyright"
+            /></dd>
+        </dlentry>
+        <dlentry>
+          <dt><codeph>-D<ph conkeyref="reusables-webhelp-output-parameters/ph_webhelp_favicon"
+              /></codeph></dt>
+          <dd><ph conkeyref="reusables-webhelp-output-parameters/def_webhelp_favicon"/></dd>
+        </dlentry>
+        <dlentry>
+          <dt><codeph>-D<ph
+                conkeyref="reusables-webhelp-output-parameters/ph_webhelp_footer_file"
+              /></codeph></dt>
+          <dd><ph
+              conkeyref="reusables-webhelp-output-parameters/def_webhelp_footer_file"
+              /><p
+              conkeyref="reusables-webhelp-output-parameters/example_webhelp_footer_file"
+            /></dd>
+        </dlentry>
+        <dlentry>
+          <dt><codeph>-D<ph
+                conkeyref="reusables-webhelp-output-parameters/ph_webhelp_footer_include"
+              /></codeph></dt>
+          <dd><ph
+              conkeyref="reusables-webhelp-output-parameters/def_webhelp_footer_include"
+            /></dd>
+        </dlentry>
+        <dlentry>
+          <dt><codeph>-D<ph
+                conkeyref="reusables-webhelp-output-parameters/ph_webhelp_product_id"
+                ><ph/></ph></codeph>
+            <ph><ph
+                conkeyref="reusables-webhelp-output-parameters/available_only_message"
+              /></ph></dt>
+          <dd>
+            <p
+              conkeyref="reusables-webhelp-output-parameters/def_webhelp_product_id"/>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt><codeph>-D<ph
+                conkeyref="reusables-webhelp-output-parameters/ph_webhelp_product_version"
+              /></codeph>
+            <ph><ph
+                conkeyref="reusables-webhelp-output-parameters/available_only_message"
+              /></ph></dt>
+          <dd>
+            <p
+              conkeyref="reusables-webhelp-output-parameters/def_webhelp_product_version"/>
+          </dd>
+        </dlentry>
+      </dl></p>
+    <p>If you need to further customize your transformation, other DocBook XSL parameters can be
+      appended. Any parameter that you want to append must follow the <codeph>-D</codeph> model of
+      the above parameters. For example, you can append the <codeph>html.stylesheet</codeph>
+      parameter in the following form:
+      <codeblock outputclass="language-ini">-Dhtml.stylesheet=/path/to/directory/of/stylesheet.css</codeblock></p>
+  </body>
+</topic>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/concept.dtd">
+<topic id="code-templates">
+  <title>Code Templates</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>XML documents<indexterm>Code templates</indexterm></indexterm>
+        <indexterm>Code templates</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>Code templates are code fragments that can be inserted quickly at the current editing
+      position . <ph keyref="product"/> includes a set of built-in code templates for CSS, <ph
+        product="author editor">LESS, </ph>Schematron, XSL, XQuery, and XML Schema document types.
+      You can also <xref keyref="options_editor_templates_code-templates">define your own code
+        templates for any type of file and share them with others</xref>. </p>
+    <p>To get a complete list of available code templates, press <uicontrol
+        conkeyref="reusable-oxygen-shortcuts-list/ctrl_shift_space"/> in <uicontrol>Text</uicontrol>
+      mode. To enter the code template, select it from the list or type its code and press
+          <uicontrol><shortcut>Enter</shortcut></uicontrol>. If a shortcut key has been assigned to
+      the code template, you can also use the shortcut key to enter it. Code templates are displayed
+      with a <image href="../img/CodeTemplates12.gif" id="image_oxh_ydh_5r"/> symbol in the content
+      completion list.</p>
+    <p>When the <xref keyref="glossentry_content-completion-assistant"><term>Content Completion
+          Assistant</term></xref> is invoked (<uicontrol
+        conkeyref="reusable-oxygen-shortcuts-list/ctrl_space"/> in <uicontrol>Text</uicontrol> mode
+      or <uicontrol><shortcut>Enter</shortcut></uicontrol> in <uicontrol>Author</uicontrol> mode),
+      it also presents a list of code templates specific to the type of the active editor. </p>
+    <p>For more information about code templates, watch our video demonstration:</p>
+    <p><object width="450" height="250" data="https://www.youtube.com/embed/eNOMCJSzIu8"
+        outputclass="iframe">
+        <param name="allowfullscreen" value="true"/>
+      </object></p>
+  </body>
+</topic>

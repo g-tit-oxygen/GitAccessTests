@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="web-author-logs">
+  <title>Locating and Configuring Logs</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Configuration logs for Web Author</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <section id="section_vwf_ptq_2v">
+      <title>How to Locate the Log File and the Log Configuration File</title>
+      <p>To locate the <b>Log file</b> where the logs are written, or the <b>Config file</b> used to
+        configure logging, go to the <xref href="webapp-admin-page.dita#webapp-admin-page"
+            ><uicontrol>Administration Page</uicontrol></xref> and in the
+          <uicontrol>General</uicontrol> tab, you can view the location of the these files.</p>
+    </section>
+    <section id="section_tgc_1wq_2v">
+      <title>Enabling HTTP Request Logging</title>
+      <p>To enable a detailed logging of the HTTP requests sent by <ph keyref="webappProduct"/>,
+        edit the <b>Config file</b> and add the following
+        lines:<codeblock outputclass="language-ini">log4j.category.org.apache.http.impl.conn=debug
+log4j.category.org.apache.http.impl.client=debug
+log4j.category.org.apache.http.client=debug
+log4j.category.org.apache.http.wire=debug
+log4j.category.org.apache.http=debug </codeblock></p>
+    </section>
+    <note>Making changes to the <b>Config file</b> requires that you <xref
+        href="webauthor-restart.dita#webauthor-restart" product="webauthor">restart the
+        application</xref><ph product="waCustom">restart the application</ph>.</note>
+  </body>
+</topic>

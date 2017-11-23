@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="the-actions-sub-tab">
+  <title>Actions Subtab</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Document type configuration dialog box<indexterm>Author tab<indexterm>Actions
+              subtab</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>The <uicontrol>Actions</uicontrol> subtab contains a sortable table that includes all the
+        <xref keyref="glossentry_framework"><term>framework</term></xref>-specific actions. Each
+      action has a unique ID, a name, a description, and a shortcut key.</p>
+    <p>To open the <uicontrol>Actions</uicontrol> subtab, <ph
+        conkeyref="reusables-preferences-pages/open-the-preferences-page"/>, go to
+        <uicontrol>Document Type Association</uicontrol>, use the <xref
+        href="preferences-document-type-association.dita#preferences-document-type-association"
+          ><uicontrol>New</uicontrol>, <uicontrol>Edit</uicontrol>,
+        <uicontrol>Duplicate</uicontrol>, or <uicontrol>Extend</uicontrol> button</xref>, click on
+      the <uicontrol>Author</uicontrol> tab, and then the <uicontrol>Actions</uicontrol> subtab.</p>
+    <p>The following actions are available in this subtab:<dl>
+        <dlentry>
+          <dt><uicontrol><image href="../img/Add16.png" placement="inline"/> New</uicontrol></dt>
+          <dd>Opens the <xref href="the-action-dialog.dita#the-action-dialog"
+                ><uicontrol>Action</uicontrol> dialog box</xref> that allows you to add an
+            action.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol><image href="../img/Copy16.png" id="image_jwc_lst_tr"/>
+              Duplicate</uicontrol></dt>
+          <dd>Duplicates the currently selected action.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol><image href="../img/Wrench16.png" id="image_ltc_3ns_tr"/>
+            Edit</uicontrol></dt>
+          <dd>Opens the <xref href="the-action-dialog.dita#the-action-dialog"
+                ><uicontrol>Action</uicontrol> dialog box</xref> that allows you to edit the
+            existing action.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol><image href="../img/RemoveSelected16.gif" placement="inline"/>
+              Delete</uicontrol></dt>
+          <dd>Deletes the currently selected action.</dd>
+        </dlentry>
+      </dl></p>
+  </body>
+</topic>

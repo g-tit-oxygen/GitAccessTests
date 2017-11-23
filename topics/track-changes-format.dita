@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="track-changes-format">
+  <title>Tracked Changes XML Markup</title>
+  <body>
+    <p>Depending on the type of edits, the following markup appears in the document source code when
+      you activate the <xref keyref="glossentry_track-changes"><term>Track Changes</term>
+        feature</xref>:<simpletable frame="all" relcolwidth="1.0* 2.18* 2.25* 2.32*">
+        <sthead>
+          <stentry>Edit Type</stentry>
+          <stentry>Processing Instruction Start Marker</stentry>
+          <stentry>Processing Instruction End Marker</stentry>
+          <stentry>Attributes</stentry>
+        </sthead>
+        <strow>
+          <stentry>Insertion</stentry>
+          <stentry><codeph>&lt;?oxy_insert_start?></codeph></stentry>
+          <stentry><codeph>&lt;?oxy_insert_end?></codeph></stentry>
+          <stentry><codeph>author</codeph>, <codeph>timestamp</codeph></stentry>
+        </strow>
+        <strow>
+          <stentry>Split</stentry>
+          <stentry><codeph>&lt;?oxy_insert_start?></codeph></stentry>
+          <stentry><codeph>&lt;?oxy_insert_end?></codeph></stentry>
+          <stentry><codeph>author</codeph>, <codeph>timestamp</codeph>,
+              <codeph>type="split"</codeph></stentry>
+        </strow>
+        <strow>
+          <stentry>Surround</stentry>
+          <stentry><codeph>&lt;?oxy_insert_start?></codeph></stentry>
+          <stentry><codeph>&lt;?oxy_insert_end?></codeph></stentry>
+          <stentry><codeph>author</codeph>, <codeph>timestamp</codeph>,
+              <codeph>type="surround"</codeph></stentry>
+        </strow>
+        <strow>
+          <stentry>Deletion</stentry>
+          <stentry><codeph>&lt;?oxy_delete?></codeph></stentry>
+          <stentry> _</stentry>
+          <stentry><codeph>author</codeph>, <codeph>timestamp</codeph>,
+            <codeph>content</codeph></stentry>
+        </strow>
+        <strow>
+          <stentry>Comment</stentry>
+          <stentry><codeph>&lt;?oxy_comment_start?></codeph></stentry>
+          <stentry><codeph>&lt;?oxy_comment_end?></codeph></stentry>
+          <stentry><codeph>author</codeph>, <codeph>timestamp</codeph>, <codeph>comment</codeph>,
+              <codeph>mid</codeph></stentry>
+        </strow>
+        <strow>
+          <stentry>Attribute Change</stentry>
+          <stentry><codeph>&lt;?oxy_attributes?></codeph></stentry>
+          <stentry> _</stentry>
+          <stentry><codeph>id</codeph>, <codeph>type</codeph>, <codeph>oldValue</codeph>,
+              <codeph>author</codeph>, <codeph>timestamp</codeph></stentry>
+        </strow>
+      </simpletable></p>
+    <p>If a comment intersects another, the <codeph>mid</codeph> attribute is used to correctly
+      identify start and end processing instruction markers.</p>
+  </body>
+</topic>

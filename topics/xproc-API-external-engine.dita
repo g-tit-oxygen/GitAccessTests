@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="xproc-API-external-engine">
+  <title>Integration of an External XProc Engine</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Transformation Scenarios<indexterm>Integrate external XProc
+          engine</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context>
+      <p>The Javadoc documentation of the XProc API is available for download from the application
+        website as a zip file: <xref
+          href="https://www.oxygenxml.com/InstData/Editor/SDK/xprocAPI.zip" scope="external"
+          format="zip"><i>xprocAPI.zip</i></xref>.</p>
+      <p>To create an XProc integration project, follow these steps:</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Move the <filepath>oxygen.jar</filepath> file from <filepath><term
+              conkeyref="reusables-user-guide/oxy-install-dir"/>/lib</filepath> to the
+            <filepath>lib</filepath> folder of your project.</cmd>
+      </step>
+      <step>
+        <cmd>Implement the <i>ro.sync.xml.transformer.xproc.api.XProcTransformerInterface</i>
+          interface.</cmd>
+      </step>
+      <step>
+        <cmd>Create a <xref keyref="glossentry_jar"><term>Java archive (JAR)</term></xref> from the
+          classes you created.</cmd>
+      </step>
+      <step>
+        <cmd>Create a <filepath>engine.xml</filepath> file according with the
+            <filepath>engine.dtd</filepath> file. The attributes of the <codeph>engine</codeph>
+          element are as follows: </cmd>
+        <info>
+          <ol>
+            <li><b>name</b> - The name of the XProc engine.</li>
+            <li><b>description</b> - A short description of the XProc engine.</li>
+            <li><b>class</b> - The complete name of the class that implements
+                <i>ro.sync.xml.transformer.xproc.api.XProcTransformerInterface</i>.</li>
+            <li><b>version</b> - The version of the integration.</li>
+            <li><b>engineVersion</b> - The version of the integrated engine.</li>
+            <li><b>vendor</b> - The name of the vendor / implementer.</li>
+            <li><b>supportsValidation</b> - <b>true</b> if the engine supports validation
+              (otherwise, <b>false</b>).</li>
+          </ol>
+          <p>The <codeph>engine</codeph> element has only one child, <codeph>runtime</codeph>. The
+              <codeph>runtime</codeph> element contains several <codeph>library</codeph> elements
+            with the <codeph>name</codeph> attribute containing the relative or absolute location of
+            the libraries necessary to run this integration.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Create a folder with the name of the integration in the <filepath><term
+              conkeyref="reusables-user-guide/oxy-install-dir"/>/lib/xproc</filepath>.</cmd>
+      </step>
+      <step>
+        <cmd>Place the <filepath>engine.xml</filepath> and all the libraries necessary to run the
+          new integration in that folder.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

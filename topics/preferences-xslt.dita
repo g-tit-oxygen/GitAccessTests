@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+<topic id="preferences-xslt">
+  <title>XSLT Preferences</title>
+  <prolog>
+    <metadata>
+      <keywords><indexterm>Preferences<indexterm>XSLT</indexterm></indexterm>
+        <indexterm>XSLT preferences</indexterm></keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>To configure the <uicontrol>XSLT</uicontrol> options, <ph
+        conkeyref="reusables-preferences-pages/open-the-preferences-page"/> and go to <menucascade>
+        <uicontrol>XML</uicontrol>
+        <uicontrol>XSLT-FO-XQuery</uicontrol>
+        <uicontrol>XSLT</uicontrol>
+      </menucascade>.</p>
+    <p><ph keyref="product"/> offers the possibility of using an XSLT transformer implemented in
+      Java (other than the XSLT transformers that come bundled with <ph keyref="product"/>). To use
+      another XSLT transformer, specify the name of the transformer factory class. <ph
+        keyref="product"/> sets this transformer factory class as the value of the Java property:
+        <i>javax.xml.transform.TransformerFactory</i>.</p>
+    <p>The XSLT preferences page allows you to customize the following options:<dl>
+        <dlentry>
+          <dt><uicontrol>JAXP XSLT Transformer - Value</uicontrol></dt>
+          <dd>Allows you to set the value of the <codeph>TransformerFactory</codeph> Java
+            class.</dd>
+        </dlentry>
+        <dlentry product="developer editor developerEclipse editorEclipse">
+          <dt><uicontrol>Validation engine - XSLT 1.0</uicontrol></dt>
+          <dd>Allows you to select the XSLT engine to be used for validation of XSLT 1.0
+            documents.</dd>
+        </dlentry>
+        <dlentry product="developer editor developerEclipse editorEclipse">
+          <dt><uicontrol>Validation engine - XSLT 2.0</uicontrol></dt>
+          <dd>Allows you to select the XSLT engine to be used for validation of XSLT 2.0
+            documents.</dd>
+        </dlentry>
+        <dlentry product="developer editor developerEclipse editorEclipse">
+          <dt><uicontrol>Validation engine - XSLT 3.0</uicontrol></dt>
+          <dd>Allows you to select the XSLT engine to be used for validation of XSLT 3.0
+              documents.<note>Saxon-HE does not implement any XSLT 3.0 features. Saxon-PE implements
+              a selection of XSLT 3.0 (and XPath 3.0) features, with the exception of
+              schema-awareness and streaming. <keyword>Saxon-EE</keyword> implements additional
+              features relating to streaming (processing of a source document without constructing a
+              tree in memory. For further details about XSLT 3.0 conformance, go to <xref
+                href="http://www.saxonica.com/documentation/index.html#!conformance/xslt30"
+                format="html" scope="external"/>.</note></dd>
+        </dlentry>
+        <dlentry product="developer editor developerEclipse editorEclipse">
+          <dt><uicontrol>XSLT Editor Content Completion Options</uicontrol> link</dt>
+          <dd>Use this link to switch to the <xref
+              href="preferences-content-completion-xsl.dita#preferences-content-completion-xsl"
+                ><uicontrol>XSLT Content Completion</uicontrol> preferences page</xref>, where you
+            can configure the XSLT content completion options.</dd>
+        </dlentry>
+      </dl></p>
+  </body>
+</topic>

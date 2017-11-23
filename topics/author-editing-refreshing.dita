@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+<topic id="author-editing-refreshing">
+  <title>Refreshing the Content</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Author editing mode<indexterm>Refreshing content</indexterm></indexterm>
+        <indexterm>XML documents<indexterm>Author Mode editing<indexterm>Refreshing
+              content</indexterm></indexterm></indexterm>
+        <indexterm>Refreshing content in Author mode</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>On occasion you may need to reload the content of the document from the disk or reapply the
+      CSS. This can be performed by using the <uicontrol><image href="../img/Refresh16.png"
+          id="image_by4_cfw_sr"/> Reload</uicontrol> action.</p>
+    <p>To refresh the content of the referenced resources you can use the <uicontrol><image
+          href="../img/RefreshReferences16.png" id="image_ncp_4hw_sr"/> Refresh
+        references</uicontrol> action that is available in the current <term>framework</term> menu
+      (for example, the <uicontrol>DITA</uicontrol> or <uicontrol>DocBook5</uicontrol> menu) .
+      However, this action will not refresh the expanded external entities, for which you will need
+      to use the <uicontrol><image href="../img/Refresh16.png" id="image_dx5_bfw_sr"/>
+        Reload</uicontrol> action.</p>
+  </body>
+</topic>

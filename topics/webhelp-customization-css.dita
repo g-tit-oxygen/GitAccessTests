@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="webhelp-customization-css">
+  <title>Customizing WebHelp Output with a Custom CSS</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>WebHelp Classic system<indexterm>Use custom CSS</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>By creating your own custom CSS stylesheet, you can customize the look and style of WebHelp
+      output to fit your specific needs.</p>
+    <p>To use a custom CSS in WebHelp output, follow these steps:<ol id="ol_emc_xgy_ls">
+        <li><ph
+            conkeyref="reusable-webhelp-customizing/transform-parameters-tab-ph"
+            /><ol id="ol_fld_sd2_vs">
+            <li><ph
+                conkeyref="reusable-webhelp-customizing/DITA-parameters-ph"
+              /></li>
+            <li><ph
+                conkeyref="reusable-webhelp-customizing/DocBook-parameters-ph"
+              /></li>
+          </ol></li>
+        <li>Run the transformation scenario.</li>
+      </ol></p>
+  </body>
+</topic>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+<topic id="doc-type">
+  <title>Built-in Frameworks (Document Types)</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Document Types</indexterm>
+        <indexterm>Frameworks</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p id="document-type-definition">A <xref keyref="glossentry_framework"
+        ><term>framework</term></xref> is associated to an XML document type according to a set of
+      rules. It also includes a variety of settings that improve editing capabilities in the
+        <uicontrol>Author</uicontrol> mode for its particular file type. These settings include:<ul>
+        <li>A default grammar used for validation and content completion in <ph
+            product="author editor authorEclipse editorEclipse">both <uicontrol>Author</uicontrol>
+            mode and </ph><uicontrol>Text</uicontrol> mode.</li>
+        <li product="author editor authorEclipse editorEclipse">CSS stylesheets for rendering XML
+          documents in <uicontrol>Author</uicontrol> mode.</li>
+        <li product="author editor authorEclipse editorEclipse">User actions invoked from toolbars
+          or menus in <uicontrol>Author</uicontrol> mode.</li>
+        <li>Predefined scenarios used for transformations for the class of XML documents defined by
+          the document type.</li>
+        <li><xref keyref="glossentry_xml-catalog"><term>XML Catalogs</term></xref>.</li>
+        <li>Directories with file templates.</li>
+        <li product="author editor authorEclipse editorEclipse">User-defined extensions for
+          customizing the interaction with the content author in <uicontrol>Author</uicontrol>
+          mode.</li>
+      </ul></p>
+    <p><ph keyref="product"/> includes built-in support for many common document types. Each <xref
+        href="predefined-document-types.dita#predefined-document-types">document type is defined in
+        a <term>framework</term></xref>.<ph product="author editor authorEclipse editorEclipse"> You
+        can <xref href="dg-author-settings.dita#dg-author-settings">create new
+            <term>frameworks</term> or make changes to existing <term>frameworks</term></xref> to
+        suit your individual requirements.</ph>
+    </p>
+    <p>For more information about configuring a <term>framework</term> in <ph><ph keyref="product"
+        /></ph>, watch our video:</p>
+    <p><object width="450" height="250" data="https://www.youtube.com/embed/Q91lU4qqzpk"
+        outputclass="iframe">
+        <param name="allowfullscreen" value="true"/>
+      </object></p>
+  </body>
+  <related-links product="author editor authorEclipse editorEclipse">
+    <linklist>
+      <title>Related Information:</title>
+      <link href="dg-complex-customization-tutorial.dita#dg-complex-customization-tutorial"/>
+      <link href="the-document-type-dialog.dita#the-document-type-dialog"/>
+    </linklist>
+  </related-links>
+</topic>
