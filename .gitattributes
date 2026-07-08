@@ -1,1 +1,2 @@
 *.png filter=lfs diff=lfs merge=lfs -text
+lfs-doc.xml filter=lfs diff=lfs merge=lfs -text
